@@ -5,5 +5,10 @@ def prime?(integer)
       return false
     end
   end
+  for n in (integer - 1)..-2
+    if (integer % n) == 0
+      return false
+    end
+  end
   return true
 end
