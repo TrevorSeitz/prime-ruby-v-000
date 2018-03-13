@@ -1,5 +1,5 @@
 def prime?(integer)
-  if integer % (2..(n-1))
+  if integer % (2..(integer-1))
     return false
   end
   return true
